@@ -1,0 +1,45 @@
+# ____________________________________
+#|                                    |
+#|         Feito Por Morais_          |
+#|Um obrigado ao WhitShS ajudou imenso|
+#|____________________________________|
+
+
+
+#MUNDO DA MINA
+Mina:
+  mundo: 'mina'
+
+
+
+#Mensagem ao minerar
+#Para desativar seta False
+Mensagem:
+  chat: true
+  minerar: '&eVocê recebeu &aR${money}'
+
+
+
+#RANKS & MONEY & Blocos
+#Adicione a quantidade de ranks que quiser
+Ranks:
+  rank1:
+    permission: "mina.rank1"
+    money: 100
+    Blocks:
+      - "IRON_ORE"
+  rank2:
+    permission: "mina.rank1"
+    money: 1000
+    Blocks:
+      - "LAPIS_ORE"
+#  rank3:
+#    permission: "mina.rank2"
+#    money: 20
+#    Blocks:
+#      - "IRON_ORE"
+#  rank4:
+#    permission: "mina.rank2"
+#    money: 2000
+#    Blocks:
+#      - "LAPIS_ORE"
